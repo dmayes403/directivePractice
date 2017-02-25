@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="directive-lecture">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body ng-controller="mainCtrl">
+
+
+<my-new-dir first-name="name"></my-new-dir>
+<!-- <div test-dir></div>     -->
+<!-- <test-dir my-name="name"></test-dir> -->
+<test-dir alert-name="whatsMyName(firstName, lastName)" last-name="Mayes" name="name"></test-dir>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="tester.js"></script>
+    <script src="newDirective.js"></script>
+    <script src="mainService.js"></script>
+</body>
+</html>
